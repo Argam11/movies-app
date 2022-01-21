@@ -1,0 +1,37 @@
+.card {
+  margin: 1rem;
+  text-align: left;
+  color: #eaeaea;
+  text-decoration: none;
+  box-shadow: 0 3px 3px 1px black;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  transform: scale(1.025);
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.cardInfo {
+  margin: 1rem;
+}
+
+.image {
+  height: auto;
+  width: auto;
+  max-height: 30%;
+  max-width: 100%;
+}

@@ -1,0 +1,37 @@
+.searchBox {
+  width: 100%;
+  margin: 0 0 2rem;
+}
+
+.search {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  background-color: #30384a;
+  border-radius: 16px;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  font-size: 1.5rem;
+  transition: all 0.5s ease;
+  color: lightgray;
+}
+
+.search:focus {
+  background-color: #404b63;
+}
+
+.search::placeholder {
+  color: lightgray;
+  opacity: 1;
+}
+
+.search:-ms-input-placeholder {
+  color: lightgray;
+}
+
+.search::-ms-input-placeholder {
+  color: lightgray;
+}
